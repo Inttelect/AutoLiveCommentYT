@@ -49,3 +49,7 @@ The bot checks for active live streams on the specified channel every 10 minutes
 Once it finds an active live stream, it retrieves the live chat ID and starts sending random emoji messages to the chat every 10 minutes.
 The bot continues to check for live streams and send messages as long as there are active live streams.
 If there are no active live streams, the bot waits 10 minutes before checking again.
+
+Added Features - 
+-Saves Token (Everytime code is run, you don't have to authenticate)
+-Lost internet (If internet is lost, Code won't break and will try to reconnect)
